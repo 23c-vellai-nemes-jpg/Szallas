@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "nev": "Panoráma Deluxe",
+    "tipus": "Deluxe szoba",
+    "ferohely": 2,
+    "arEgyEjszakara": 35000,
+    "kep": "images/panorama.jpg"
+  }
+]

@@ -1,13 +1,13 @@
 [
-  {
-    "id": 1,
-    "szallasId": 1,
-    "nev": "Kovács Péter",
-    "email": "peter@email.com",
-    "telefon": "+36301234567",
-    "erkezes": "2026-10-10",
-    "tavozas": "2026-10-13",
-    "szemelyek": 2,
-    "statusz": "aktiv"
-  }
+    {
+        "id": 1,
+        "szallasId": 1,
+        "nev": "Kovács Péter",
+        "email": "peter@email.com",
+        "telefon": "+36301234567",
+        "erkezes": "2026-10-10",
+        "tavozas": "2026-10-13",
+        "szemelyek": 2,
+        "statusz": "aktiv"
+    }
 ]
