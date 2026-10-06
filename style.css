@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+
+.navbar {
+    min-height: 65px;
+}
+
+
+.bemutatkozas {
+    padding: 120px 20px;
+    background-color: #16af81;
+}
+
+
+.kis-cim {
+    color: #0d6efd;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.bemutatkozas h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.bemutatkozas .lead {
+    color: #555;
+}
+
+
+.kartya {
+    background-color: white;
+    padding: 30px;
+    height: 100%;
+    border-radius: 10px;
+
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+
+    transition: 0.2s;
+}
+
+
+.kartya:hover {
+    transform: translateY(-5px);
+}
+
+
+.kartya h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+.kartya p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+.also-resz {
+    padding: 70px 20px;
+    background-color: white;
+}
+
+
+.also-resz h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.also-resz p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+
+footer {
+    margin-top: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .bemutatkozas {
+        padding: 80px 20px;
+    }
+
+    .bemutatkozas h1 {
+        font-size: 38px;
+    }
+
+}
