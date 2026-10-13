@@ -1,0 +1,192 @@
+:root {
+    --zold: #087f68;
+    --sotet: #153b35;
+    --vilagos: #f3f8f6;
+    --arany: #e7b65b;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #24332f;
+    background: #f8faf9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    min-height: 68px;
+}
+
+.navbar-brand {
+    letter-spacing: .3px;
+}
+
+.bemutatkozas {
+    padding: 115px 20px;
+    background: linear-gradient(120deg, #dff4eb, #a7dfca);
+}
+
+.kis-cim {
+    color: var(--zold);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.bemutatkozas h1 {
+    font-size: clamp(2.2rem, 5vw, 3.6rem);
+    font-weight: 800;
+    color: var(--sotet);
+}
+
+.bemutatkozas .lead {
+    max-width: 650px;
+    margin: 0 auto;
+    color: #52655e;
+}
+
+.btn-primary {
+    background: var(--zold);
+    border-color: var(--zold);
+}
+
+.btn-primary:hover {
+    background: #066653;
+    border-color: #066653;
+}
+
+.kartya,
+.panel {
+    background: #fff;
+    padding: 26px;
+    height: 100%;
+    border-radius: 14px;
+    box-shadow: 0 5px 22px #173b3210;
+}
+
+.kartya h3 {
+    font-size: 1.25rem;
+}
+
+.kartya p {
+    color: #61716b;
+    line-height: 1.65;
+}
+
+.szallas-kep {
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.also-resz {
+    padding: 65px 20px;
+    background: #e5f3ed;
+}
+
+.oldal-fej {
+    padding: 55px 0;
+    background: #e5f3ed;
+}
+
+.oldal-fej h1 {
+    font-weight: 800;
+    color: var(--sotet);
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.form-control,
+.form-select {
+    padding: .7rem;
+    border-radius: 8px;
+}
+
+.table th {
+    white-space: nowrap;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.statusz {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: #d9f4e6;
+    color: #087247;
+    font-size: .85rem;
+}
+
+.statusz.torolt {
+    background: #fce5e5;
+    color: #a32929;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+#tetoreGomb {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    display: none;
+    z-index: 10;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.price {
+    font-weight: bold;
+    color: var(--zold);
+}
+
+.small-note {
+    font-size: .9rem;
+    color: #6b7772;
+}
+
+@media (max-width: 768px) {
+    .bemutatkozas {
+        padding: 75px 18px;
+    }
+
+    .panel {
+        padding: 18px;
+    }
+
+    .table-responsive {
+        font-size: .9rem;
+    }
+}
+
+#visszaTetejere {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    background-color: #087f68;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#visszaTetejere:hover {
+    background-color: #153b35;
+}
