@@ -1,9 +1,4 @@
-# Balaton Resort – foglalási weboldal
-
-## Indítás
-1. Csomagold ki a projektet.
-2. Nyisd meg a `Szallas-main` mappát VS Code-ban.
-3. Indítsd el az `index.html` fájlt a **Live Server** bővítménnyel. A `fetch()` miatt ne közvetlenül fájlként (`file://`) nyisd meg.
+# Balaton Resort – foglalási weboldal (12c Szitási Levente és Vellai-Nemes Samu
 
 ## Funkciók
 - Kezdőlap szálláskártyákkal és foglalásra mutató linkekkel.
@@ -13,5 +8,11 @@
 - Foglalás törlése és visszaállítása.
 - A foglalások a böngésző `localStorage` tárhelyére mentődnek, így ugyanabban a böngészőben újranyitás után is megmaradnak.
 
-## Fontos
-Ez egy frontendes iskolai projekt. A foglalások nem kerülnek központi adatbázisba, és más eszközön nem jelennek meg automatikusan.
+## Munka felosztás
+### Szitási Levente
+- JS
+- JSON
+
+### Vellai-Nemes Samu
+- Html
+- CSS
